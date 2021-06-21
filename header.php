@@ -6,7 +6,7 @@
             <a href="<?php echo $base_url; ?>/index.php">Attracties</a> |
             <a href="<?php echo $base_url; ?>/admin/index.php">Admin</a>
             <?php if(isset($_SESSION['user_id'])): ?>
-                | <a href="<?php echo $base_url; ?>/admin/logout.php">Uitloggen</a>
+            <a href="<?php echo $base_url; ?>/admin/logout.php">Uitloggen</a>
             <?php endif; ?>
         </nav>
     </div>
