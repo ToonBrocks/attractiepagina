@@ -18,7 +18,6 @@ require_once 'admin/backend/config.php';
 </head>
 
 <body>
-
     <?php require_once 'header.php'; ?>
     <div class="container content">
         <aside>
